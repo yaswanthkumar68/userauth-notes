@@ -1,0 +1,15 @@
+.account-container{
+    height: 70vh;
+    margin : 10px;
+    border-radius: 10px;
+    padding : 10px 20px;
+    background-color: #ffdee977;
+    background-image: linear-gradient(0deg, #ffdee967 0%, #b5fffd71 100%);
+}
+
+.account-header{
+    color : red;
+}
+.account-details{
+    font-size: 20px;
+}

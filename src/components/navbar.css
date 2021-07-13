@@ -1,0 +1,28 @@
+.navbar{
+    background-color: rgba(94, 117, 151, 0.616);
+    padding : 15px 25px;
+    text-align: right;
+    border-radius: 15px;
+    
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 8px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+a:hover{
+    background-color: rgba(67, 141, 95, 0.938);
+    color: white;
+    padding: 10px 8px;
+    border-radius: 10px;
+    
+}
+
+.active{
+    background-color: rgba(34, 117, 194, 0.822);
+    color:white;
+    border-radius: 8px;
+}

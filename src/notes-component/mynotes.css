@@ -1,0 +1,15 @@
+.mynotes-container{
+    min-height: 70vh;
+    margin : 10px;
+    border-radius: 10px;
+    padding : 10px 20px;
+}
+.mynotes-header{
+    color:red;
+    text-transform: uppercase;
+    
+}
+.mynotes-details{
+    display: flex;
+    justify-content: space-around;
+}
