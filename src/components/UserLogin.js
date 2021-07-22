@@ -19,7 +19,7 @@ const UserLogin = (props) => {
         }),
         onSubmit: (values) => {
             //console.log(values)
-            axios.post('http://dct-user-auth.herokuapp.com/users/login', values)
+            axios.post('https://dct-user-auth.herokuapp.com/users/login', values)
                 .then((response) => {
                     const result = response.data
                     if(result.hasOwnProperty('errors')){

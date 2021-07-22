@@ -9,7 +9,7 @@ const Account = (props) => {
     //console.log(props)
 
     useEffect(() => {
-        axios.get('http://dct-user-auth.herokuapp.com/users/account', {
+        axios.get('https://dct-user-auth.herokuapp.com/users/account', {
             headers : {
                 'x-auth' : localStorage.getItem('token')
             }
@@ -21,7 +21,7 @@ const Account = (props) => {
             })
             .catch((error) => {
                 alert('Please login first')
-                console.log(error)
+               // console.log(error)
                 props.history.push('/login')
             })
 

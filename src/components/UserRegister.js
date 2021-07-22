@@ -25,7 +25,7 @@ const UserRegister = (props) => {
     
         onSubmit: (values) => {
             //console.log(values)
-            axios.post('http://dct-user-auth.herokuapp.com/users/register', values)
+            axios.post('https://dct-user-auth.herokuapp.com/users/register', values)
                 .then((response) => {
                     const result = response.data
                     //console.log(result)
