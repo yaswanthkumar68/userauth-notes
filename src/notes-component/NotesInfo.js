@@ -14,7 +14,7 @@ const NotesInfo = (props) => {
 
     const handleRemove = () => {
         //console.log(_id)
-        axios.delete(`http://dct-user-auth.herokuapp.com/api/notes/${_id}`, {
+        axios.delete(`https://dct-user-auth.herokuapp.com/api/notes/${_id}`, {
             headers : {
                 'x-auth' : localStorage.getItem('token')
             }
@@ -29,7 +29,7 @@ const NotesInfo = (props) => {
     }
 
     const handleShow = () => {  
-        axios.get(`http://dct-user-auth.herokuapp.com/api/notes/${_id}`, {
+        axios.get(`https://dct-user-auth.herokuapp.com/api/notes/${_id}`, {
             headers : {
                 'x-auth' : localStorage.getItem('token')
             }

@@ -10,7 +10,7 @@ const Mynotes = (props) => {
     const [ status, setStatus ] = useState(false)
 
     useEffect(() => {
-        axios.get('http://dct-user-auth.herokuapp.com/api/notes', {
+        axios.get('https://dct-user-auth.herokuapp.com/api/notes', {
             headers : {
                 'x-auth' : localStorage.getItem('token')
             }

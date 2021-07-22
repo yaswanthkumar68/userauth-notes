@@ -11,7 +11,7 @@ const AddNotes = (props) => {
         setTitleError('')
     }
     const formSubmit = (details) => {
-        axios.post('http://dct-user-auth.herokuapp.com/api/notes', details, {
+        axios.post('https://dct-user-auth.herokuapp.com/api/notes', details, {
             headers : {
                 'x-auth' : localStorage.getItem('token')
             }

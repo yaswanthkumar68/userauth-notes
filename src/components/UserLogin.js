@@ -10,8 +10,8 @@ const UserLogin = (props) => {
 
     const formik = useFormik({
         initialValues: {
-            email: '',
-            password: ''
+            email: 'yaswanth04@gmail.com',
+            password: 'secret123'
         },
         validationSchema: Yup.object({
             email: Yup.string().email('Invalid email address').required('email cannot be blank'),
